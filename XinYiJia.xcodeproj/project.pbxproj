@@ -14,6 +14,7 @@
 		CA1AB5D41DCC33FC00162C15 /* UIView+LXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1AB5D31DCC33FC00162C15 /* UIView+LXExtension.m */; };
 		CA1AB5D81DCC609000162C15 /* LXHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1AB5D61DCC609000162C15 /* LXHomeCollectionViewCell.m */; };
 		CA1AB5D91DCC609000162C15 /* LXHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA1AB5D71DCC609000162C15 /* LXHomeCollectionViewCell.xib */; };
+		CA44669E1DD0707600C74C19 /* ActivityListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA44669D1DD0707600C74C19 /* ActivityListTableViewController.m */; };
 		CAC1D2C51DB872E000D38A99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC1D2C41DB872E000D38A99 /* main.m */; };
 		CAC1D2C81DB872E000D38A99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC1D2C71DB872E000D38A99 /* AppDelegate.m */; };
 		CAC1D2CE1DB872E000D38A99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC1D2CC1DB872E000D38A99 /* Main.storyboard */; };
@@ -40,6 +41,8 @@
 		CA1AB5D61DCC609000162C15 /* LXHomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHomeCollectionViewCell.m; sourceTree = "<group>"; };
 		CA1AB5D71DCC609000162C15 /* LXHomeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXHomeCollectionViewCell.xib; sourceTree = "<group>"; };
 		CA4466981DD01D2300C74C19 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CA44669C1DD0707600C74C19 /* ActivityListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityListTableViewController.h; sourceTree = "<group>"; };
+		CA44669D1DD0707600C74C19 /* ActivityListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityListTableViewController.m; sourceTree = "<group>"; };
 		CAC1D2C01DB872E000D38A99 /* XinYiJia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XinYiJia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC1D2C41DB872E000D38A99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CAC1D2C61DB872E000D38A99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -247,6 +250,8 @@
 			children = (
 				CAC1D2F81DB8980F00D38A99 /* HomepageViewController.h */,
 				CAC1D2F91DB8980F00D38A99 /* HomepageViewController.m */,
+				CA44669C1DD0707600C74C19 /* ActivityListTableViewController.h */,
+				CA44669D1DD0707600C74C19 /* ActivityListTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -395,6 +400,7 @@
 				CA1AB5D01DCC33E400162C15 /* UIBarButtonItem+LXExtension.m in Sources */,
 				CA1AB5D81DCC609000162C15 /* LXHomeCollectionViewCell.m in Sources */,
 				CAC1D2F11DB8926500D38A99 /* LXTabBarViewController.m in Sources */,
+				CA44669E1DD0707600C74C19 /* ActivityListTableViewController.m in Sources */,
 				58CDA0C41DCC910200CD3D35 /* ViewController.m in Sources */,
 				CA1AB5D41DCC33FC00162C15 /* UIView+LXExtension.m in Sources */,
 				CAC1D2F41DB8940A00D38A99 /* FriendViewController.m in Sources */,
@@ -520,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XinYiJia/PrefixHeader.pch";
 				INFOPLIST_FILE = XinYiJia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-github.XinYiJia";
@@ -531,6 +538,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XinYiJia/PrefixHeader.pch";
 				INFOPLIST_FILE = XinYiJia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-github.XinYiJia";
